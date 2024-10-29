@@ -1,3 +1,36 @@
+:root{
+    --bgnd-dark: #220901;
+
+    --text-light: blue;
+
+    --title-light: red;
+}
+body{
+    background-color: var(--bgnd-dark);
+}  
+
+h1 {
+    font-family: 'DM+Serif+Text';
+    font-size: 5rem;
+    color: var(--text-ligth);
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+}
+
+
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'DM+Serif+Text';
+    color: var(--text-light);
+
+}
+
+
 /* Spinner de Loading */
 .spinner {
     display: none;
@@ -19,3 +52,6 @@
 .loading {
     display: none;
 }
+
+
+
